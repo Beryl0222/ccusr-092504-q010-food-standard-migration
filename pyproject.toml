@@ -1,0 +1,8 @@
+[project]
+name = "food-standard-migration"
+version = "0.1.0"
+description = "食品新标迁移与批次处置领域契约"
+requires-python = ">=3.11"
+
+[tool.unittest]
+start-directory = "tests"

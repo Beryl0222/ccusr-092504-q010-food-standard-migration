@@ -1,0 +1,9 @@
+{
+  "event_id": "092504-010-sample-001",
+  "event_type": "STANDARD_REGISTERED",
+  "aggregate_type": "standard_revision",
+  "aggregate_id": "food_standard_migration-001",
+  "occurred_at": "2026-09-24T12:00:00+08:00",
+  "version": 1,
+  "summary": "已登记一条可供联调的领域事实"
+}
