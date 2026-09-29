@@ -20,19 +20,45 @@
       "type": "string",
       "enum": [
         "STANDARD_REGISTERED",
+        "STANDARD_SUPERSEDED",
+        "PRODUCT_REGISTERED",
+        "ASSOCIATION_SUGGESTED",
+        "ASSOCIATION_CONFIRMED",
+        "ASSOCIATION_REJECTED",
         "LOT_RECEIVED",
+        "LOT_FAILED",
+        "BATCH_REGISTERED",
+        "EVIDENCE_LINKED",
         "PROCESS_EVIDENCE_CAPTURED",
         "BATCH_REVIEWED",
-        "DISPOSITION_CHANGED"
+        "BATCH_FROZEN",
+        "BATCH_UNFROZEN",
+        "BATCH_SHIPPED",
+        "DISPOSITION_CHANGED",
+        "REPORT_ACCEPTED",
+        "REPORT_DUPLICATE",
+        "REPORT_CONFLICTED",
+        "RECALL_DECLARED",
+        "RECALL_NARROWING_REQUESTED",
+        "RECALL_NARROWED",
+        "RECALL_NARROWING_REJECTED",
+        "ACTION_SCHEDULED",
+        "ACTION_STARTED",
+        "ACTION_COMPLETED",
+        "ACTION_FAILED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "standard_revision",
+        "product",
         "material_lot",
         "product_batch",
-        "compliance_decision"
+        "compliance_decision",
+        "lab_report",
+        "recall",
+        "workflow_action"
       ]
     },
     "aggregate_id": {
